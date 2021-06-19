@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.btn {
+		@apply duration-100 font-semibold px-4 py-2 rounded-full shadow-md;
+	}
+	.btn:hover {
+		@apply transform scale-105 shadow-lg;
+	}
+	.btn:active {
+		@apply transform scale-95 shadow;
+	}
+	.btn--primary {
+		@apply bg-gradient-to-br from-primary-400 to-secondary-500 text-black;
+	}
+}
