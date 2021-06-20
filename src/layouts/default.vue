@@ -1,5 +1,8 @@
 <template>
-	<div class="bg-gray-100 min-h-screen">
+	<div
+		class="bg-gradient-to-br from-gray-800 to-gray-900 bg-fixed text-gray-800 dark:text-white min-h-screen"
+	>
+		<ui-scroll-indicator />
 		<layout-navigation />
 		<container class="py-8">
 			<nuxt />

@@ -8,7 +8,7 @@ module.exports = {
 		'./plugins/**/*.{js,ts}',
 		'./nuxt.config.{js,ts}',
 	],
-	darkMode: false,
+	darkMode: 'class',
 	theme: {
 		container: {
 			center: true,
@@ -21,7 +21,6 @@ module.exports = {
 			colors: {
 				primary: colors.green,
 				secondary: colors.teal,
-				gray: colors.warmGray,
 			},
 		},
 	},
